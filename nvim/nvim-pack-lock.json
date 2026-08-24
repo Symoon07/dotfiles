@@ -76,6 +76,10 @@
       "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
+    "slang-server.nvim": {
+      "rev": "fedf769c407b4f36335f758d2c152ccae21a928b",
+      "src": "https://github.com/hudson-trading/slang-server.nvim.git"
+    },
     "telescope.nvim": {
       "rev": "471eebb1037899fd942cc0f52c012f8773505da1",
       "src": "https://github.com/nvim-telescope/telescope.nvim"

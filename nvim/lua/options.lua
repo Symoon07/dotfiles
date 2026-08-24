@@ -1,31 +1,31 @@
 -- Line numbers
-vim.opt.number = true                  -- absolute line numbers
-vim.opt.relativenumber = true          -- relative numbers (jump with 5j, 3k, etc.)
+vim.opt.number = true          
+vim.opt.relativenumber = true
 
 -- Indentation
-vim.opt.tabstop = 4                    -- a tab = 4 spaces visually
-vim.opt.shiftwidth = 4                 -- auto-indent uses 4 spaces
-vim.opt.expandtab = true               -- convert tabs to spaces
-vim.opt.smartindent = true             -- smart auto-indent on new lines
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.smartindent = true
 
 -- Search
-vim.opt.ignorecase = true              -- case-insensitive search...
-vim.opt.smartcase = true               -- ...unless you type a capital letter
-vim.opt.hlsearch = true                -- highlight all matches
-vim.opt.incsearch = true               -- highlight as you type
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.hlsearch = true
+vim.opt.incsearch = true
 
 -- UI
-vim.opt.wrap = false                   -- don't wrap long lines
-vim.opt.cursorline = true              -- highlight current line
-vim.opt.scrolloff = 8                  -- keep 8 lines visible above/below cursor
-vim.opt.signcolumn = "yes"             -- always show gutter (avoids text shifting)
-vim.opt.termguicolors = true           -- enable 24-bit color
+vim.opt.wrap = false
+vim.opt.cursorline = true
+vim.opt.scrolloff = 8
+vim.opt.signcolumn = "yes"
+vim.opt.termguicolors = true
 
 -- Behavior
-vim.opt.clipboard = "unnamedplus"      -- use system clipboard for yank/paste
-vim.opt.undofile = true                -- persistent undo across sessions
-vim.opt.swapfile = false               -- disable swap files
-vim.opt.updatetime = 250               -- faster response (default 4000ms)
+vim.opt.clipboard = "unnamedplus"
+vim.opt.undofile = true
+vim.opt.swapfile = false
+vim.opt.updatetime = 250
 
 -- Remove ~
 vim.opt.fillchars = { eob = " " }

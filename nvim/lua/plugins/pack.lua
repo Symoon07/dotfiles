@@ -8,5 +8,6 @@ vim.pack.add({
 	{ src = "https://github.com/nvim-lua/plenary.nvim"},
 	{ src = "https://github.com/hedyhli/outline.nvim"},
 	{ src = "https://github.com/navarasu/onedark.nvim.git"},
+    { src = "https://github.com/hudson-trading/slang-server.nvim.git"},
 
 })
