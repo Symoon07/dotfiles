@@ -10,5 +10,6 @@ require("plugins.autopairs")
 require("plugins.lsp")
 require("plugins.outline")
 require("plugins.onedark")
+require("plugins.gitblame")
 -- Base configuration
 require("options")

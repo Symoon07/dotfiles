@@ -9,5 +9,5 @@ vim.pack.add({
 	{ src = "https://github.com/hedyhli/outline.nvim"},
 	{ src = "https://github.com/navarasu/onedark.nvim.git"},
     { src = "https://github.com/hudson-trading/slang-server.nvim.git"},
-
+    { src = "https://github.com/f-person/git-blame.nvim.git"},
 })
