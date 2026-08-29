@@ -4,8 +4,8 @@ vim.lsp.config["clangd"] = {
 	root_markers = { ".git" },
 }
 
-vim.lsp.config["pyright"] = {
-	cmd = { "pyright-langserver", "--stdio" },
+vim.lsp.config["basedpyright"] = {
+	cmd = { "basedpyright-langserver", "--stdio" },
 	filetypes = { "python" },
 	root_markers = { ".git" },
 }
@@ -51,7 +51,7 @@ vim.api.nvim_create_autocmd("LspAttach", {
 
 vim.lsp.enable({
 	"clangd",
-	"pyright",
+	"basedpyright",
 	"lua_ls",
 	"gopls",
 	"slang_server",
